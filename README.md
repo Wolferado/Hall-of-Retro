@@ -11,4 +11,4 @@ Website is made with HTML, CSS and JavaScript.
 
 ## Creators
 - Aleksey Karelin (Wolferado)
-- Cenan Turhan (Tugba-Ceren)
+- Ceren Turhan (Tugba-Ceren)
