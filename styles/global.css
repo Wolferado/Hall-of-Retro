@@ -11,5 +11,25 @@ html{
     background: rgb(86,0,126);
     background: linear-gradient(180deg, rgba(86,0,126,1) 0%, rgba(0,0,0,1) 50%);
     background-repeat: no-repeat;
-    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgb(39, 1, 56) 0%, rgba(0,0,0,1) 50%);;
+}
+
+::-webkit-scrollbar-track-piece {
+    opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #98979750;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ddd9d9c3;
 }
