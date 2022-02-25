@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 32px;
+    font-family: 'Orbitron';
+    color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+html{
+    background: rgb(86,0,126);
+    background: linear-gradient(180deg, rgba(86,0,126,1) 0%, rgba(0,0,0,1) 50%);
+    background-repeat: no-repeat;
+    height: 100%;
+}

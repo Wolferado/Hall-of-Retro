@@ -1,0 +1,49 @@
+#intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    text-align: center;
+    font-size: 64px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+h2 {
+    align-self: flex-start;
+    padding-bottom: 30px;
+}
+
+hr {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+
+#intro-section p {
+    padding: 20px;
+}
+
+#hall-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hall-section div {
+    display: flex;
+    justify-content: center;
+    border: #bb00faa1 solid 3px;
+    border-radius: 15px;
+    width: 90%;
+    margin: 20px 20px 20px 20px;
+}
+
+#hall-section div h3 {
+    display: flex;
+    justify-self: flex-start;
+}
