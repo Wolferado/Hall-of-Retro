@@ -18,7 +18,7 @@ expositionData = [
     },
 
     {
-        "gameName": "Qbert",
+        "gameName": "Q*bert",
         "gameInfo": "Ha ha, colored floor changes",
         "image": "materials/sprites/Qbert.png"
     },
