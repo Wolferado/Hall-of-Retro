@@ -9,7 +9,7 @@
 
 html{
     background: rgb(86,0,126);
-    background: url(materials/retrowave_bg.png), linear-gradient(180deg, rgba(86,0,126,1) 0%, rgba(0,0,0,1) 25%);
+    background: url(/materials/retrowave_bg.png), linear-gradient(180deg, rgba(86,0,126,1) 0%, rgba(0,0,0,1) 25%);
     background-repeat: no-repeat;
     animation-name: blinkingRetroLights;
     animation-duration: 5s;
