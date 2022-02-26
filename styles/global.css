@@ -9,7 +9,11 @@
 
 html{
     background: rgb(86,0,126);
+<<<<<<< HEAD
     background: url(/materials/background.png), linear-gradient(180deg, rgba(86,0,126,1) 0%, rgba(0,0,0,1) 25%);
+=======
+    background: url(/materials/retrowave_bg.png), linear-gradient(180deg, rgba(86,0,126,1) 0%, rgba(0,0,0,1) 25%);
+>>>>>>> e590c46bdd6cb274c3f3ab4cd83acc3c611c2853
     background-repeat: no-repeat;
 }
 
