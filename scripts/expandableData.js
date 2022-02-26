@@ -5,7 +5,8 @@ expandableData = [
         "releaseDate": "9th of July, 1981",
         "creator": "Shigeru Miyamoto",
         "publisher": "Nintendo", 
-        "expandInfo": "Ha ha, barrels go down"
+        "expandInfo": '"Donkey Kong" is a video game about Mario, who is saving woman Pauline from the ape, that can throw barrels and hit Mario.',
+        "image": "/materials/test_image.png"
     },
 
     {
@@ -14,7 +15,10 @@ expandableData = [
         "releaseDate": "21st of April, 1984",
         "creator": "Hiroji Kiyotake",
         "publisher": "Nintendo", 
-        "expandInfo": "Ha ha, ducks fall down"
+        "expandInfo": '"Duck Hunt" is a shooting game in which the main objective is to shoot flying ducks on the screen.' +
+        'Usually, this happened via special equipment in front of giant TV screen.',
+        "image": "/materials/test_image.png",
+        "videoLink": ""
     },
 
     {
@@ -23,7 +27,9 @@ expandableData = [
         "releaseDate": "23th of June, 1991",
         "creator": "Sega",
         "publisher": "Sega",  
-        "expandInfo": "Ha ha, hedgehog go spin"
+        "expandInfo": '"Sonic the Hedgehog" is a game about blue hedgehog trying to save the World from evil Dr.Robotnik, that has imprisoned animals in robots.',
+        "image": "/materials/test_image.png",
+        "videoLink": ""
     },
 
     {
@@ -32,7 +38,9 @@ expandableData = [
         "releaseDate": "18th of October, 1982",
         "creator": "Warren Dawis, Jeff Lee",
         "publisher": "Gottlieb",  
-        "expandInfo": "Ha ha, colored floor gets changed"
+        "expandInfo": 'Qbert has to make every single cube the same color, while avoiding obstacles and enemies.',
+        "image": "/materials/test_image.png",
+        "videoLink": ""
     },
 
     {
@@ -41,7 +49,9 @@ expandableData = [
         "releaseDate": "6th of June, 1984",
         "creator": "Alexey Pajitnov",
         "publisher": "Bullet-Proof Software", 
-        "expandInfo": "Ha ha, Soviet Union"
+        "expandInfo": 'Objective of the "Tetris" is to complete lines by moving pieces, that are falling down. Completed lines disappear and grant the player points.',
+        "image": "/materials/test_image.png",
+        "videoLink": ""
     },
 
     {
@@ -50,7 +60,9 @@ expandableData = [
         "releaseDate": "29th of July, 1981",
         "creator": "Shigeru Miyamoto",
         "publisher": "Namco", 
-        "expandInfo": "Ha ha, aliens"
+        "expandInfo": 'Player must not let Galaga Forces destroy all of mankind. Each stage player has to defeat all Galaga aliens, which fly in formations from the top of the screen. Each enemy is unique and will attack differently.',
+        "image": "/materials/test_image.png",
+        "videoLink": ""
     },
 
     {
@@ -59,16 +71,20 @@ expandableData = [
         "releaseDate": "7th of December, 1990",
         "creator": "Tsukara Kuwahara, Atsuo Nagata, Yuji Muroja",
         "publisher": "Hudson Soft", 
-        "expandInfo": "Ha ha, it is about to blow"
+        "expandInfo": "Using strategy, available powerups, player has to plant a bomb on the field for an enemy to receive damage in explosion radius or while colliding with other players.",
+        "image": "/materials/test_image.png",
+        "videoLink": ""
     },
 
     {
-        "gameName": "PAC-MAN", 
+        "gameName": "Pac-Man", 
         "genre": "Arcade",
         "releaseDate": "22nd of May, 1980",
         "creator": "Toru Iwatani",
         "publisher": "Bandai Namco Studios", 
-        "expandInfo": "Waka-waka"
+        "expandInfo": "Each level represents a maze and Pac-Man has to eat all the cookies in there, while dealing or escaping the Ghost gang.",
+        "image": "/materials/test_image.png",
+        "videoLink": ""
     },
 
     {
@@ -77,6 +93,8 @@ expandableData = [
         "releaseDate": "14th of July, 1983",
         "creator": "Shigeru Miyamoto",
         "publisher": "Nintendo", 
-        "expandInfo": "Ha ha, princess is in another castle"
+        "expandInfo": "The goal for the plumber Mario is to save kidnapped Princess Peach from his main antagonist the Bowser. Player has to go through different locations to save her.",
+        "image": "/materials/test_image.png",
+        "videoLink": "https://youtu.be/JJR7ER4_jmk?controls=0"
     }
 ]
