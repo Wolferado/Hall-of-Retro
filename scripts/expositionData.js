@@ -2,13 +2,13 @@ expositionData = [
     {
         "gameName": "Donkey Kong", 
         "gameInfo": "Ha ha, barrels go down",
-        "image": "/materials/sprites/Donkey_Kong.png"
+        "image": "materials/sprites/Donkey_Kong.png"
     },
 
     {
         "gameName": "Duck Hunt", 
         "gameInfo": "Ha ha, ducks fall down",
-        "image": "/materials/sprites/Duck_Hunt.png"
+        "image": "materials/sprites/Duck_Hunt.png"
     },
 
     {
@@ -20,7 +20,7 @@ expositionData = [
     {
         "gameName": "Qbert",
         "gameInfo": "Ha ha, colored floor changes",
-        "image": "materials/sprites/qbert.png"
+        "image": "materials/sprites/Qbert.png"
     },
 
     {
@@ -50,6 +50,6 @@ expositionData = [
     {
         "gameName": "Super Mario Bros", 
         "gameInfo": "Ha ha, princess is in another castle",
-        "image": "materials/sprites/Mario.png"
+        "image": "materials/sprites/mario.png"
     }
 ]
