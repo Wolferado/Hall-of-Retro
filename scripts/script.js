@@ -7,6 +7,7 @@
         let gameName = document.createElement("h3");
         let gameInfo = document.createElement("p");
         let buttonMore = document.createElement("span");
+        let imagePreview = document.createElement("img");
         buttonMore.setAttribute("class", "material-icons");
         buttonMore.textContent = "read_more";
         buttonMore.addEventListener('click', function() {
@@ -14,9 +15,11 @@
         });
         gameName.textContent = expositionData[i].gameName;
         gameInfo.textContent = expositionData[i].gameInfo;
+        imagePreview.src = expositionData[i].image;
         gameExposition.appendChild(buttonMore);
         gameExposition.appendChild(gameName);
         gameExposition.appendChild(gameInfo);
+        gameExposition.appendChild(imagePreview);
         container.appendChild(gameExposition);
     }
 })();
@@ -58,16 +61,22 @@ function populateOverflowBox(box) {
     let boxTitle = box.children[0].textContent;
     for(let i = 0; i < expandableData.length; i++) {
         if(boxTitle == expandableData[i].gameName) {
+            let infoBox = document.createElement("div");
+            infoBox.className = "informational-box";
             let genreHeading = document.createElement("h3");
             let releaseDateHeading = document.createElement("h3");
             let creatorHeading = document.createElement("h3");
             let publisherHeading = document.createElement("h3");
             let mainObjectiveHeading = document.createElement("h3");
-            let genre = document.createElement("span");
-            let releaseDate = document.createElement("span");
-            let creator = document.createElement("span");
-            let publisher = document.createElement("span");
-            let mainObjective = document.createElement("span");
+            let genre = document.createElement("p");
+            let releaseDate = document.createElement("p");
+            let creator = document.createElement("p");
+            let publisher = document.createElement("p");
+            let mainObjective = document.createElement("p");
+            let image = document.createElement("img");
+            let video = document.createElement("iframe");
+            image.src = expandableData[i].image;
+            video.src = expandableData[i].videoLink;
 
             genreHeading.textContent = "Genre";
             releaseDateHeading.textContent = "Release Date";
@@ -81,16 +90,44 @@ function populateOverflowBox(box) {
             publisher.textContent = expandableData[i].publisher;
             mainObjective.textContent = expandableData[i].expandInfo;
 
-            box.appendChild(genreHeading);
-            box.appendChild(genre);
-            box.appendChild(releaseDateHeading);
-            box.appendChild(releaseDate);
-            box.appendChild(creatorHeading);
-            box.appendChild(creator);
-            box.appendChild(publisherHeading);
-            box.appendChild(publisher);
-            box.appendChild(mainObjectiveHeading);
-            box.appendChild(mainObjective);
+            infoBox.appendChild(genreHeading);
+            infoBox.appendChild(genre);
+            infoBox.appendChild(releaseDateHeading);
+            infoBox.appendChild(releaseDate);
+            infoBox.appendChild(creatorHeading);
+            infoBox.appendChild(creator);
+            infoBox.appendChild(publisherHeading);
+            infoBox.appendChild(publisher);
+            infoBox.appendChild(mainObjectiveHeading);
+            infoBox.appendChild(mainObjective);
+            box.appendChild(infoBox);
+            box.appendChild(image);
+            box.appendChild(video);
         }
     }
 }
+
+// TOP-SECRET
+var clicksLeft = 5;
+(function enableEasterEggs() {
+    let title = document.getElementById("title");
+    title.addEventListener('click', function() {
+        if(clicksLeft > 0) {
+            console.log("Something happened...");
+            clicksLeft--;
+        }
+        else if (clicksLeft == 0) {
+            console.log("Sacred input found!");
+            clicksLeft--;
+        }
+        else {
+            let input = prompt("Looking for Easter Egg, eh?");
+            if(input == 1337) {
+                alert("YEET")
+            }
+            else if(input == "rick") {
+                window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ").focus();
+            }
+        }
+    });
+})();
