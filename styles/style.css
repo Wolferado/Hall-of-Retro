@@ -88,6 +88,10 @@ hr {
     opacity: 0.5;
 }
 
+.overflow-background:hover {
+    cursor:pointer;
+}
+
 .overflow-box {
     position: fixed;
     justify-self: flex-start;
