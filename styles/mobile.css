@@ -1,4 +1,8 @@
 @media (max-width: 1024px) {
+    #intro-section p {
+        padding-right: 5%;
+    }
+    
     #hall-section div {
         height: auto;
         display: flex;
@@ -8,6 +12,10 @@
     #hall-section h3 {
         text-align: center;
         word-break: keep-all;
+    }
+
+    #hall-section div p {
+        font-size: 28px;
     }
 
     #hall-section img {

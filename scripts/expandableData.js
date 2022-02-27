@@ -5,7 +5,7 @@ expandableData = [
         "releaseDate": "9th of July, 1981",
         "creator": "Shigeru Miyamoto",
         "publisher": "Nintendo", 
-        "expandInfo": '"Donkey Kong" is a video game about Mario, who is saving woman Pauline from the ape, that can throw barrels and hit Mario.',
+        "expandInfo": 'The main objective is to save girl named Pauline. Evade barrels, obstacles, Donkey Kong, and in the end achieve your goal.',
         "image": "materials/gifs/donkey kong.gif",
         "videoLink": "https://youtube.com/embed/Pp2aMs38ERY?controls=0"
     },
@@ -16,9 +16,7 @@ expandableData = [
         "releaseDate": "21st of April, 1984",
         "creator": "Hiroji Kiyotake",
         "publisher": "Nintendo", 
-        "expandInfo": '"Duck Hunt" is a shooting game in which the main objective is to shoot flying ducks on the screen.' +
-        'Usually, this happened via special equipment in front of giant TV screen.',
-        "image": "materials/gifs/duck_hunt.gif",
+        "expandInfo": 'Each round you have to shoot flying ducks to get the highest score. You have only 3 shots for each couple of ducks.',        "image": "materials/gifs/duck_hunt.gif",
         "videoLink": "https://youtube.com/embed/J3sfsP9W048?controls=0"
     },
 
@@ -28,7 +26,7 @@ expandableData = [
         "releaseDate": "23th of June, 1991",
         "creator": "Sega",
         "publisher": "Sega",  
-        "expandInfo": '"Sonic the Hedgehog" is a game about blue hedgehog trying to save the World from evil Dr.Robotnik, that has imprisoned animals in robots.',
+        "expandInfo": 'You have to free kidnapped animals that are trapped in robots created by Dr.Robotnik. Each zone you have to face him and achieve victory.',
         "image": "materials/gifs/sonic.gif",
         "videoLink": "https://youtube.com/embed/Gsa_4s3CjmI?controls=0"
     },
@@ -39,7 +37,7 @@ expandableData = [
         "releaseDate": "18th of October, 1982",
         "creator": "Warren Dawis, Jeff Lee",
         "publisher": "Gottlieb",  
-        "expandInfo": 'Qbert has to make every single cube the same color, while avoiding obstacles and enemies.',
+        "expandInfo": 'You have to make every single cube of the pyramid the same color, while avoiding enemies that can interrupt you and be a problem.',
         "image": "materials/gifs/qbert.gif",
         "videoLink": "https://youtube.com/embed/HKIbhaQfs-A?controls=0"
     },
@@ -61,7 +59,7 @@ expandableData = [
         "releaseDate": "29th of July, 1981",
         "creator": "Shigeru Miyamoto",
         "publisher": "Namco", 
-        "expandInfo": 'Player must not let Galaga Forces destroy all of mankind. Each stage player has to defeat all Galaga aliens, which fly in formations from the top of the screen. Each enemy is unique and will attack differently.',
+        "expandInfo": 'Each stage player has to defeat all Galaga aliens, which fly in formations from the top of the screen. Each enemy is unique and will attack differently.',
         "image": "materials/gifs/galaga.gif",
         "videoLink": "https://youtube.com/embed/dvjapcHsqXY?controls=0"
     },
@@ -83,7 +81,7 @@ expandableData = [
         "releaseDate": "22nd of May, 1980",
         "creator": "Toru Iwatani",
         "publisher": "Bandai Namco Studios", 
-        "expandInfo": "Each level represents a maze and Pac-Man has to eat all the cookies in there, while dealing or escaping the Ghost gang.",
+        "expandInfo": "Each level represents a maze and Pac-Man has to eat all the cookies in there, while dealing with or escaping the Ghost gang.",
         "image": "materials/gifs/pacman.gif",
         "videoLink": "https://youtube.com/embed/dScq4P5gn4A?controls=0"
     },

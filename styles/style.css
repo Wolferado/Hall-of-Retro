@@ -52,7 +52,7 @@ hr {
 
 #hall-section div {
     display: grid;
-    grid-template-columns: 95% 5%;
+    grid-template-columns: 80% 20% 5%;
     grid-template-rows: auto auto;
     border: #bb00faa1 solid 3px;
     border-radius: 15px;
@@ -75,6 +75,7 @@ hr {
     padding: 10px;
     padding-top: 20px;
     padding-left: 30px;
+    white-space: pre-line;
 }
 
 #hall-section div .material-icons {
@@ -92,8 +93,8 @@ hr {
 
 #hall-section img {
     grid-row: 2;
-    grid-column: 1;
-    justify-self: end;
+    grid-column: 2;
+    justify-self: center;
     align-self: center;
 }
 
