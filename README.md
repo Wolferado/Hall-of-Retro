@@ -21,7 +21,17 @@ Link: _https://wolferado.github.io/Hall-of-Retro/_
 - Ceren Turhan (Tugba-Ceren)
 
 ## Preview:
+<div align="center">
 
 PC:
 
-<img src="">
+<img src="https://github.com/Wolferado/Hall-of-Retro/blob/main/materials/screenshots/wolferado.github.io_Hall-of-Retro_.png?raw=true" width="49%" height="49%" alt="https://github.com/Wolferado/Hall-of-Retro/blob/main/materials/screenshots/wolferado.github.io_Hall-of-Retro_.png?raw=true">
+<img src="https://github.com/Wolferado/Hall-of-Retro/blob/main/materials/screenshots/wolferado.github.io_Hall-of-Retro_%20(1).png?raw=true" width="49%" height="49%" alt="https://github.com/Wolferado/Hall-of-Retro/blob/main/materials/screenshots/wolferado.github.io_Hall-of-Retro_%20(1).png?raw=true">
+
+Mobile:
+
+<img src="https://github.com/Wolferado/Hall-of-Retro/blob/main/materials/screenshots/wolferado.github.io_Hall-of-Retro_(iPhone%206_7_8).png?raw=true" width="30%" height="30%"  alt="https://github.com/Wolferado/Hall-of-Retro/blob/main/materials/screenshots/wolferado.github.io_Hall-of-Retro_(iPhone%206_7_8).png?raw=true">
+<img src="https://github.com/Wolferado/Hall-of-Retro/blob/main/materials/screenshots/wolferado.github.io_Hall-of-Retro_(iPhone%206_7_8)%20(1).png?raw=true" width="30%" height="30%" alt="https://github.com/Wolferado/Hall-of-Retro/blob/main/materials/screenshots/wolferado.github.io_Hall-of-Retro_(iPhone%206_7_8)%20(1).png?raw=true">
+<img src="https://github.com/Wolferado/Hall-of-Retro/blob/main/materials/screenshots/wolferado.github.io_Hall-of-Retro_(iPhone%206_7_8)%20(2).png?raw=true" width="30%" height="30%" alt="https://github.com/Wolferado/Hall-of-Retro/blob/main/materials/screenshots/wolferado.github.io_Hall-of-Retro_(iPhone%206_7_8)%20(2).png?raw=true">
+  
+</div>
