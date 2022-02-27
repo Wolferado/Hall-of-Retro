@@ -6,6 +6,8 @@ This project was created during TheRaccoons Winter 48-hour hackathon.
 
 Website is made with HTML, CSS and JavaScript.
 
+Link: _https://wolferado.github.io/Hall-of-Retro/_
+
 ## Features of the website:
 - Dive into the Retro atmospherics by visiting this website
 - Find interesting jokes and humour regarding some of retro games
@@ -17,3 +19,9 @@ Website is made with HTML, CSS and JavaScript.
 ## Creators
 - Aleksey Karelin (Wolferado)
 - Ceren Turhan (Tugba-Ceren)
+
+## Preview:
+
+PC:
+
+<img src="">
